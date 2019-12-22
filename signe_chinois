@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+if (("$annee"=="1948"))||(("$annee"=="1960"))||(("$annee"=="1972"))||(("$annee"=="1984"))||(("$annee"=="1996"))||(("$annee"=="2008"))||(("$annee"=="2020"))
+ then chinois="Rat" 
+elif (("$annee"=="1949"))||(("$annee"=="1961"))||(("$annee"=="1973"))||(("$annee"=="1985"))||(("$annee"=="1997"))||(("$annee"=="2009"))||(("$annee"=="2021"))
+ then chinois="Boeuf" 
+elif (("$annee"=="1950"))||(("$annee"=="1962"))||(("$annee"=="1974"))||(("$annee"=="1986"))||(("$annee"=="1998"))||(("$annee"=="2010"))||(("$annee"=="2022"))
+ then chinois="Tigre" 
+elif (("$annee"=="1951"))||(("$annee"=="1963"))||(("$annee"=="1975"))||(("$annee"=="1987"))||(("$annee"=="1999"))||(("$annee"=="2011"))||(("$annee"=="2023"))
+ then chinois="Lapin" 
+elif (("$annee"=="1952"))||(("$annee"=="1964"))||(("$annee"=="1976"))||(("$annee"=="1988"))||(("$annee"=="2000"))||(("$annee"=="2012"))||(("$annee"=="2024"))
+ then chinois="Dragon" 
+elif (("$annee"=="1953"))||(("$annee"=="1965"))||(("$annee"=="1977"))||(("$annee"=="1989"))||(("$annee"=="2001"))||(("$annee"=="2013"))||(("$annee"=="2025"))
+ then chinois="Serpent" 
+elif (("$annee"=="1954"))||(("$annee"=="1966"))||(("$annee"=="1978"))||(("$annee"=="1990"))||(("$annee"=="2002"))||(("$annee"=="2014"))||(("$annee"=="2026"))
+ then chinois="Cheval" 
+elif (("$annee"=="1955"))||(("$annee"=="1967"))||(("$annee"=="1979"))||(("$annee"=="1991"))||(("$annee"=="2003"))||(("$annee"=="2015"))||(("$annee"=="2027"))
+ then chinois="Mouton" 
+elif (("$annee"=="1956"))||(("$annee"=="1968"))||(("$annee"=="1980"))||(("$annee"=="1992"))||(("$annee"=="2004"))||(("$annee"=="2016"))||(("$annee"=="2028"))
+ then chinois="Singe" 
+elif (("$annee"=="1957"))||(("$annee"=="1969"))||(("$annee"=="1981"))||(("$annee"=="1993"))||(("$annee"=="2005"))||(("$annee"=="2017"))||(("$annee"=="2029"))
+ then chinois="Coq" 
+elif (("$annee"=="1958"))||(("$annee"=="1970"))||(("$annee"=="1982"))||(("$annee"=="1994"))||(("$annee"=="2006"))||(("$annee"=="2018"))||(("$annee"=="2030"))
+ then chinois="Chien" 
+elif (("$annee"=="1959"))||(("$annee"=="1971"))||(("$annee"=="1983"))||(("$annee"=="1995"))||(("$annee"=="2007"))||(("$annee"=="2019"))||(("$annee"=="2031"))
+ then chinois="Cochon" 
+else chinois="signe inconnu"
+ fi

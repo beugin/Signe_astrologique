@@ -1,0 +1,29 @@
+#!/bin/bash
+Jimp="31"
+Jfev="28"
+Jpair="30"
+jourt="0"
+if [ $mois = "janvier" ]
+then jourt=$jour
+elif [ $mois = "février" ]
+then	jourt=$(($jour+$Jimp))
+elif [ $mois = "mars" ]
+then	jourt=$(($jour+$Jimp+$Jfev))
+elif [ $mois = "avril" ]
+then	jourt=$(($jour+$Jimp+$Jfev+$Jpair))
+elif [ $mois = "mai" ]
+then	jourt=$(($jour+ $Jimp*2+$Jfev+$Jpair))
+elif [ $mois = "juin" ] 
+then	jourt=$(($jour+ $Jimp*2+$Jfev+$Jpair*2))
+elif [ $mois = "juillet" ]
+then	jourt=$(($jour+ $Jimp*3+$Jfev+$Jpair*2))
+elif [ $mois = "août" ]
+then	jourt=$(($jour+ $Jimp*3+$Jfev+$Jpair*3))
+elif [ $mois = "septembre" ]
+then	jourt=$(($jour+ $Jimp*4+$Jfev+$Jpair*3))
+elif [ $mois = "octobre" ]
+then	jourt=$(($jour+ $Jimp*4+$Jfev+$Jpair*4))
+elif	[ $mois = "novembre" ]
+then jourt=$(($jour+ $Jimp*5+$Jfev+$Jpair*4))
+else jourt=$(($jour+ $Jimp*5+$Jfev+$Jpair*5))
+fi
