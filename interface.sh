@@ -1,5 +1,5 @@
 #!/bin/bash
-today=$(date +"%Y-%d-%Y")
+today=$(date +"%A %d %B %Y")
 time=$(date +"%T")
 
 dialog --backtitle "Welcom dans l'interface du zodiac" \
