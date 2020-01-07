@@ -21,18 +21,5 @@ select i in Homme Femme Bonhomme_de_neige; do
         fi
 done
 
-nom= read -p 'Veuillez entrer votre prénom : ' nom
-echo "Vous venez d'entrer dans l'interface des astres $nom"
-echo "Cette application prend en compte le triezième signe du zodiac"
-echo ""
-Now=$(date)
-echo "Nous sommes le $Now" 
-
-echo ''
-
-
-read -p 'Entrez votre jour de naissance :' jour
-read -p 'Entrez votre mois de naissance :'  mois
-read -p 'Entrez votre année de naissance :' annee
 
 
