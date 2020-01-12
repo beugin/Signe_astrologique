@@ -9,4 +9,4 @@ dialog 	--backtitle "Résultat" \
 		Le résultat du test est à prendre en considération votre année de naissance est après 2016.		
 		Vous êtes née le ${anni[*]}
 		Votre signe est ${signe[*]} 
-		Votre signe astrologique chinois est ${chinois[*]}" 50 50
+		Votre signe astrologique chinois est ${chinois[*]}" 50 50 

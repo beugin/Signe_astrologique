@@ -32,8 +32,9 @@ annee=`cat text.txt`
 . conv_jours.bash 
 . conv_signe.bash 
 . signe_chinois 
-. resultat.sh 
+. resultat.sh
+. result2.sh
 
 
 today=$(date +%Y-%m-%d)
-/usr/bin/mysql -uXXXXX -pXXXX -P3306 -h127.0.0.1 -e "INSERT INTO \`Signe_zozo\`.\`Identite\` (\`nom\`,\`civilite\`, \`jour\`, \`mois\`, \`annee\`,\`signe\`,\`chinois\`, \`date\`, \`heure\`) VALUES (\"$nom\", \"$civilite\", \"$jour\", \"$mois\", \"$annee\", \"$signe\",\"$chinois\",\"$today\",\"$time\") ;"
+/usr/bin/mysql -uroot -proot -P3306 -h127.0.0.1 -e "INSERT INTO \`Signe_zozo\`.\`Identite\` (\`nom\`,\`civilite\`, \`jour\`, \`mois\`, \`annee\`,\`signe\`,\`chinois\`, \`date\`, \`heure\`) VALUES (\"$nom\", \"$civilite\", \"$jour\", \"$mois\", \"$annee\", \"$signe\",\"$chinois\",\"$today\",\"$time\") ;"
