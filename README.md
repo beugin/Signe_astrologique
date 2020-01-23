@@ -41,3 +41,9 @@ Attention le mot "date" est une fonction dans le bash pouvant rentrer en conflit
 ## La commande permettant d'envoyer les variables dans la base est la dernière ligne du fichier interface.sh
 /usr/bin/mysql -uIdentifiant_Utilisateur -pMot_de_passe_BDD -PNumero_port -hAdresse_IP -e "INSERT INTO \`Signe_zozo\`.\`Identite\` (\`nom\`,\`civilite\`, \`jour\`, \`mois\`, \`annee\`,\`signe\`,\`chinois\`, \`date\`, \`heure\`) VALUES (\"$nom\", \"$civilite\", \"$jour\", \"$mois\", \"$annee\", \"$signe\",\"$chinois\",\"$today\",\"$time\") ;"
 
+---on se connecte à la base en mettant les identifiants de connexion et les informations permettants la connexion (ip et port). ISERT INTO permet d'inserer dans les colognes les valeurs enregistrés dans les variables. 
+
+## Evolution possible
+
+- Effectuer des statistiques sociologiques
+- Développer l'interface pour mettre des couleurs
