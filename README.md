@@ -8,6 +8,7 @@
 - Un framwork à installer : Dialogue, possibilité de mettre Xdialogue. Il suffit de remplacer le Dialog par Xdialog dans le code. 
 DIALOG=${DIALOG=Xdialog}
 Vous avez la possibilité de mettre une commande permettant que l'ordinateur de choisir Dialog ou Xdialog en fonction de ce qui est intaller sur votre ordinateur. 
+ 
   if [ -z $DISPLAY ]
   then
 	DIALOG=dialog
@@ -33,7 +34,9 @@ Les noms sont :: nom de la variable dans le code
 - chinois     :: $chinois
 - date        :: $today
 - heure       :: $time
-attention le mot "date" est une fonction dans le bash pouvant rentrer en conflit dans le programme d'ou le nom différent. 
+
+
+Attention le mot "date" est une fonction dans le bash pouvant rentrer en conflit dans le programme d'ou le nom différent. 
 
 ## La commande permettant d'envoyer les variables dans la base est la dernière ligne du fichier interface.sh
 /usr/bin/mysql -uIdentifiant_Utilisateur -pMot_de_passe_BDD -PNumero_port -hAdresse_IP -e "INSERT INTO \`Signe_zozo\`.\`Identite\` (\`nom\`,\`civilite\`, \`jour\`, \`mois\`, \`annee\`,\`signe\`,\`chinois\`, \`date\`, \`heure\`) VALUES (\"$nom\", \"$civilite\", \"$jour\", \"$mois\", \"$annee\", \"$signe\",\"$chinois\",\"$today\",\"$time\") ;"
