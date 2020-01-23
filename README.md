@@ -43,7 +43,9 @@ Attention le mot "date" est une fonction dans le bash pouvant rentrer en conflit
 
 ---on se connecte à la base en mettant les identifiants de connexion et les informations permettants la connexion (ip et port). ISERT INTO permet d'inserer dans les colognes les valeurs enregistrés dans les variables. 
 
-## Evolution possible
+## Evolutions possibles
 
 - Effectuer des statistiques sociologiques
 - Développer l'interface pour mettre des couleurs
+- Rajouter le signe Amerindien 
+
