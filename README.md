@@ -29,7 +29,7 @@ Installation de MySql sous linux : sudo apt-get install mysql-server mysql-clien
 La base de données de ce programme est une seul table. Il y a au total 9 colones.
 
 
-Nom dans la Base de données	Nom de la variable dans le code		Type de variable
+Nom dans la Base de données /	Nom de la variable dans le code /		Type de variable
 
 	Nom			$nom					char
 	civilite  		$civilite				booléenn
