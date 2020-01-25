@@ -31,13 +31,13 @@ La base de données de ce programme est une seul table. Il y a au total 9 colone
 
 Nom dans la Base de données /	Nom de la variable dans le code /		Type de variable
 
-	Nom			$nom					char
-	civilite  		$civilite				booléenn
- 	jour    		$jour					float
-  	mois    		$mois					char
-	annee   		$annee					char
-	signe    		$signe					char
-	chinois   		$chinois				char 	
+	Nom			$nom					text
+	civilite  		$civilite				varchar(8)
+ 	jour    		$jour					decimal(2.0)
+  	mois    		$mois					varchar(8)
+	annee   		$annee					decimal(4.0)
+	signe    		$signe					text
+	chinois   		$chinois				text 	
 	date     		$today					date
 	heure    		$time					time
 
